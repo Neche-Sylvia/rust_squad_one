@@ -17,6 +17,6 @@ fn main() {
     let z:f32= x/y;
     println!("The answer when {x} divides {y} is {z}");
 
-    let my_fav_emoji:&str="\u{1F917}";
-    println!("My favourite emoji is {}.\nSending y'all lots of hugs{}{}{}", my_fav_emoji, my_fav_emoji,my_fav_emoji,my_fav_emoji);
+    let my_fav_emoji:&str="\u{1F917}"; /*this is a unicorn way of representation an emoji. They are represented in Hexadecimal*/
+    println!("My favourite emoji is {}.\nSending y'all lots of hugs{}{}{}", my_fav_emoji, my_fav_emoji,my_fav_emoji,my_fav_emoji); /*The '/n' character is used to move the text ahead of it to the next line*/
 }
