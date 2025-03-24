@@ -5,7 +5,7 @@
 -The third function is for my favourite emoji.
 */
 fn my_details(name:&str, matno:&str){
-println!("My name is {name}.\nMy matric number is {matno}");
+println!("My name is {name}.\nMy matric number is {matno}"); /*The '/n' character is used to move the text ahead of it to the next line*/
 }
 
 fn division(x:f32, y:f32){
@@ -20,5 +20,5 @@ fn my_fav_emoji(emoji:&str){
 fn main() {
     my_details("Ilo Chinaecherem Sylvia", "ENG2102775");
     division(70.0,20.0);
-    my_fav_emoji("\u{1F917}");
+    my_fav_emoji("\u{1F917}"); /*this is a unicorn way of representation an emoji. They are represented in Hexadecimal*/
 }
